@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!--Sounds-->
+<audio id="sound1" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type:"audio/mp3"></audio>
+<audio id="sound2" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type:"audio/mp3"></audio>
+<audio id="sound3" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type:"audio/mp3"></audio>
+<audio id="sound4" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type:"audio/mp3"></audio>
+<audio id="failsound" src="http://k003.kiwi6.com/hotlink/clrtgq79wz/failsimon.mp3" type:"audio/mp3"></audio>
+<!--End of Sounds-->
+
+<div class="container text-center">
+  <div class="row">
+    <!--Green Area-->
+    <div id="grnBtn" class="col-xs-6 grnPlace grnCol"></div>
+    <!--Red Area-->
+    <div id="redBtn" class="col-xs-6 redPlace redCol"></div>
+  </div>
+  <div class="row">
+    <!--Yellow Area-->
+    <div id="yelBtn" class="col-xs-6 yelPlace yelCol"></div>
+    <!--Blue Area-->
+    <div id="bluBtn" class="col-xs-6 bluPlace bluCol"></div>
+  </div>
+  <div class="menuBox">
+    <h1><strong>Simon</strong></h1>
+    <!--Display Screen-->
+    <div id="screen"></div>
+    <!--Start Button-->
+    <a class="btn btn-success" id="startBtn"></a>
+    <div class="startName">Start</div>
+    <!--Strict Indicator-->
+    <div id="strictOnOff" class="strictOnOff"></div>
+    <!--Strict Button-->
+    <a class="btn btn-warning" id="strictBtn"></a>
+    <div class="strictName">Strict</div>
+    <!--On/Off Switch-->
+    <div class="checkbox" id="onOff">
+      <input data-toggle="toggle" type="checkbox">
+    </div>
+  </div>
+</div>
+<div class="footer text-center">
+  <h6>Written and coded by <strong>Syed Rizvi</strong></h6>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

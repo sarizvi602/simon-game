@@ -1,0 +1,175 @@
+html, body {
+  background-color: white;
+}
+
+.container {
+  position: relative;
+  border-radius: 100%;
+  margin-top:50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  height: 600px;
+  width: 600px;
+}
+
+.grnPlace {
+  position: absolute;
+  height: 292px;
+  width: 292px;
+  border-radius: 100% 0 0 0;
+  left: 10px;
+  border: 15px solid black;
+}
+
+.grnCol {
+  background-color: rgba(0,255,0,0.5);
+}
+
+.grnCol2 {
+  background-color: rgba(0,255,0,1);
+}
+
+.redPlace {
+  position: absolute;
+  height: 292px;
+  width: 292px;
+  border-radius: 0 100% 0 0;
+  border: 15px solid black;
+  right: 10px;
+}
+
+.redCol {
+  background-color: rgba(255,0,0,0.5);
+}
+
+.redCol2 {
+  background-color: rgba(255,0,0,1);
+}
+
+.yelPlace {
+  position: absolute;
+  height: 292px;
+  width: 292px;
+  border-radius: 0 0 0 100%;
+  left: 10px;
+  bottom: 20px;
+  border: 15px solid black;
+}
+
+.yelCol {
+  background-color: rgba(255,255,0,0.5);
+}
+
+.yelCol2 {
+  background-color: rgba(255,255,0,1);
+}
+
+.bluPlace {
+  position: absolute;
+  height: 292px;
+  width: 292px;
+  border-radius: 0 0 100% 0;
+  border: 15px solid black;
+  right: 10px;
+  bottom: 20px;
+}
+
+.bluCol {
+  background-color: rgba(0,0,255,0.5);
+}
+
+.bluCol2 {
+  background-color: rgba(0,0,255,1);
+}
+
+.menuBox {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  top: 25%;
+  left: 25%;
+  border: 10px solid black;
+  border-radius: 100%;
+}
+
+h1 {
+  padding-top: 10px;
+  font-size: 50px;
+  padding-left: 15px;
+}
+
+#screen {
+  position: absolute;
+  top: 115px;
+  left: 95px;
+  background-color: rgba(0,0,0,0.8);
+  border: 2px solid black;
+  height: 60px;
+  width: 90px;
+  border-radius: 10%;
+  font-size: 30px;
+  color: red;
+  padding-top: 5px;
+}
+
+#startBtn {
+  position: absolute;
+  top: 120px;
+  left: 30px;
+  border-radius: 100%;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+}
+
+.startName {
+  position: absolute;
+  top: 163px;
+  left: 34px;
+  font-weight: bold;
+}
+
+.strictOnOff {
+  background-color: black;
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  position: absolute;
+  top: 100px;
+  right: 43px;
+}
+
+.strictOnOff2{
+  background-color: red;
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  position: absolute;
+  top: 100px;
+  right: 43px;  
+}
+
+#strictBtn {
+  position: absolute;
+  top: 120px;
+  right: 30px;
+  border-radius: 100%;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+}
+
+.strictName {
+  position: absolute;
+  top: 163px;
+  right: 32px;
+  font-weight: bold;
+}
+
+#onOff {
+  position: absolute;
+  bottom: 20px;
+  left: 105px;
+}
